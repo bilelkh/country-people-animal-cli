@@ -1,0 +1,23 @@
+{
+  "name": "country-people-animal-cli",
+  "version": "1.0.0",
+  "description": "CLI app to filter and count countries, people, and animals data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "cli",
+    "filter",
+    "count",
+    "nodejs",
+    "reduce",
+    "test"
+  ],
+  "author": "bilel khadhraoui",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

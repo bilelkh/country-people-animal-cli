@@ -1,11 +1,23 @@
 {
-  "name": "cdp-recruitment-javascript",
+  "name": "country-people-animal-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI app to filter and count countries, people, and animals data",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "jest"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "cli",
+    "filter",
+    "count",
+    "nodejs",
+    "reduce",
+    "test"
+  ],
+  "author": "bilel khadhraoui",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
